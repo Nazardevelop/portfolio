@@ -1,0 +1,23 @@
+.carusel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.button {
+    position: absolute;
+    top: 50%;
+}
+.left-b {
+    left:6%;
+}
+.right-b {
+    right: 1%;
+}
+ul {
+    list-style-type: none;
+    width: 500%;
+    overflow: hidden;
+}
+ul img{
+    width: 20%;
+}

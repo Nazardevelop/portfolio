@@ -1,34 +1,11 @@
 header {
-    display: block;
-    width: 100%;
-    height: 383px;
-    background-color:#282828;   
-
+    border: 1px solid #000000;
 }
-header div {
-    display: block;
+.slider {
+    width: 80%;
+    text-align: center;
+    position: absolute;
+    top:100px;
+    left:6%;
     
-}
-.head-text{
-    display: block;
-    font-size: 20px;
-    color: #9b9b9b;
-    float: left;
-    margin-left: 130px;
-}
-.head-icons {
-    float: right;
-    margin-right: 130px;
-}
-.icon {
-    float:left;
-    padding-left: 20px;
-}
-.head-icons a {
-    text-decoration: none;
-    color: #9b9b9b;
-}
-.test{
-    font-size:24px;
-    background-color: navajowhite;
 }
