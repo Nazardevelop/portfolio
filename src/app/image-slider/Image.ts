@@ -1,3 +1,4 @@
 export class Image{
-    url:string;
+    url: string;
+    index: number;
 }

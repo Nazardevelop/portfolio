@@ -1,7 +1,18 @@
-<div class="carusel">
-    <div class="button left-b"><button> <== </button></div> 
-  <ul class="slides">
-    <li><img src="../../assets/images/bootstrap.png" alt=""></li>
+<div class="slider">
+    <div class="sliderArrows">
+        <a (click)="backWard()">&lt;</a>
+        <a (click)="forWard()">&gt;</a>
+      </div>
+      <div class="circles">
+        <span class="dot" [class.active]="isActive(1)"></span>
+        <span class="dot" [class.active]="isActive(2)" ></span>
+        <span class="dot"[class.active]="isActive(3)"></span>
+        <span class="dot"[class.active]="isActive(4)"></span>
+        <span class="dot"[class.active]="isActive(5)"></span>
+      </div>
+  <ul class="slideShow">
+   <li *ngFor="let image of images">
+     <img [src]="image.url" alt="">
+   </li>
   </ul>
-  <div class="button right-b"><button> ==> </button></div> 
 </div>
